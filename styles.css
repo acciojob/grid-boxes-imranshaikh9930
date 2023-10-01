@@ -2,13 +2,35 @@
 
 #grid{
 	display:grid;
+	background:green;
+	grid-template-columns:repeat(4,1fr);
+	font-size:3rem;
+	gap:.1rem;
+	background:white;
 	
 }
-.div1{
-	border:5px solid white;
-}
-#grid:nth-child(2){
+div{
+	border:3px solid white;
 	color:white;
-	width:200px;
-	border:2px solid white;
+	background:green;
+}
+.div1{
+	
+	grid-column:span  4;
+}
+.div2{
+ 
+	grid-row:span 4;
+}
+.div4{
+	 
+	grid-column:span 2;
+}
+.div5{
+
+	grid-column:span 2;
+}
+.div10{
+	 
+		grid-column:span 3;
 }
