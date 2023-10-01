@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+
+#grid{
+	display:grid;
+	
+}
+.div1{
+	border:5px solid white;
+}
+#grid:nth-child(2){
+	color:white;
+	width:200px;
+	border:2px solid white;
+}
